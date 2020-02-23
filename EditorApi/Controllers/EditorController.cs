@@ -7,9 +7,9 @@ namespace EditorApi.Controllers
     public class EditorController : Controller
     {
         [HttpGet]
-        public IActionResult GetEditor()
+        public string GetEditor()
         {
-            return null;
+            return "editor";
         }
     }
 }
