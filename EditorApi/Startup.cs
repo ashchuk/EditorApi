@@ -47,7 +47,7 @@ namespace EditorApi
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapHub<EditorHub>("/editor");
+                endpoints.MapHub<EditorHub>("/EditorHub");
             });
         }
     }
