@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace EditorApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class EditorController : Controller
     {
         [HttpGet]
